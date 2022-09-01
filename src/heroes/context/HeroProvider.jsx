@@ -56,7 +56,7 @@ export const HeroProvider = ({ children }) => {
   };
 
   return (
-    //provee a todos los componentes de este contexto de toda la informacion que pasamos por aca
+    
     <HeroContext.Provider value={{ state, actions }}>
       {children}
     </HeroContext.Provider>
